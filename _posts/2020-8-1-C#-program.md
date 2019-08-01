@@ -1,13 +1,13 @@
 ---
 
-category: Unity
-path: '/unity/shader'
-title: 'Unity着色器'
+category: c#/语法
+path: '/c#/基础语法'
+title: 'C#基础语法'
 
 layout: nil
 ---
+c#基础语法
 
-This method allows users to retrieve stuff.
 
 ### Response
 
