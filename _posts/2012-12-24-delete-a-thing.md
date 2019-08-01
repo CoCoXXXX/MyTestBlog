@@ -1,13 +1,13 @@
 ---
-category: Stuff
-path: '/stuff/:id'
-title: 'Delete a thing'
+category: dogLin
+path: '/dogLin/:id'
+title: 'dogLin加油'
 type: 'DELETE'
 
 layout: nil
 ---
 
-This method allows the user to post a new thing to his stuff.
+DogLin加油，你一定可以学会Unity！
 
 ### Request
 

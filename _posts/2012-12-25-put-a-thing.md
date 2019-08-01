@@ -1,13 +1,13 @@
 ---
-category: Stuff
-path: '/stuff/:id'
-title: 'Update a thing'
+category: dogLin
+path: '/dogLin/:id'
+title: 'dogLin喜欢吃'
 type: 'PUT'
 
 layout: nil
 ---
 
-This method allows the user to retrieve his stuff.
+DogLin喜欢吃Shit
 
 ### Request
 

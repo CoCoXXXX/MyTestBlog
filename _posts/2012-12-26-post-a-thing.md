@@ -1,13 +1,13 @@
 ---
-category: Stuff
-path: '/stuff'
-title: 'Post a thing'
+category: dogLin
+path: '/dogLin'
+title: 'DogLin是傻子'
 type: 'POST'
 
 layout: nil
 ---
 
-This method allows users to create a new thing.
+DogLin不能做个傻子
 
 ### Request
 
