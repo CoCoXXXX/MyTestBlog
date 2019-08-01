@@ -1,6 +1,8 @@
 ---
-path: '/blog'
-title: 'test'
+
+category: Unity
+path: '/unity/shader'
+title: 'Unity着色器'
 
 layout: nil
 ---
