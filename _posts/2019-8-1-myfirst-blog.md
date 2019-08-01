@@ -1,6 +1,6 @@
 ---
 path: '/blog'
-title: '测试'
+title: 'test'
 
 layout: nil
 ---
