@@ -55,5 +55,19 @@ DrawCall是CPU调用底层图形接口。比如有上千个物体，每一个渲
   }
   //DrawCall 为1 ```
 
+ 可以看到DrawCall的数量为1，Batching的数量是499.而在这个过程中，除了实例化创建物体职位什么都没做，不错Unity3D引擎自动处理了这种情况。  
+  但是有很多开发者也遇到这种情况，就是也是从prefab实例化创建的物体，为什么DrawCall依然很高呢？这就是上文说的DrawCall的动态批处理存在着很多约束。下面来演示一下。针对cube这样简单的物体的创建，如果校友不慎就会造成DrawCall飞涨的情况。  
+   同样创建500个物体，每个物体大小都不相同，也就是transform中的scale属性不通，代码如下：
+   ```for(int i = 0; i< 500; i++)
+    {
+      GameObject cube;
+      cube = GameObject.Instantiate(prefab) as GameObject;
+      if(i/100 == 0){
+          cube.transform.localScale = new Vector3(2+i,2+i,2+i);
+      }
+    }
+    //DrawCall 101```
+    
+
 
     
