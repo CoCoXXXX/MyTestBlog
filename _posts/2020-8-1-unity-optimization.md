@@ -47,12 +47,13 @@ DrawCall是CPU调用底层图形接口。比如有上千个物体，每一个渲
 #### Dynamic Batching 动态批处理
  首先要明确一点，Unity3D的DrawCall动态批处理机制是引擎自动进行的，无需像静态批处理那样手动设置Static。与一个实例化Prefab的例子。如果动态物体共享相同的材质，则引擎会自动对DrawCall优化，也就是使用批处理。首先将一个Cube做成Prefab，然后再实例化500次，看看DrawCall数量，代码如下：
 
- ```
-  for(int i = 0; i< 500; i++)
+
+   ```for(int i = 0; i< 500; i++)
   {
       GameObject cube;
       cube = GameObject.Instantiate(prefab) as GameObject;
   }
- ```
+  //DrawCall 为1 ```
+
 
     
