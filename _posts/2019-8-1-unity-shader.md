@@ -1,6 +1,6 @@
 ---
 
-category: Unity/Shader
+category: Unity
 path: '/unity/shader'
 title: 'Unity着色器'
 

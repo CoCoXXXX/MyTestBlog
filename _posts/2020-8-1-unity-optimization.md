@@ -1,6 +1,6 @@
 ---
 
-category: Unity/optimization
+category: Unity
 path: '/unity/optimization'
 title: 'Unity性能优化'
 
@@ -15,9 +15,9 @@ layout: nil
 * 内存的分配。记住，除了Unity3D自己的内存损耗。我们科室还带着Mono呢，还有托管的那一套东西。更别说有引入自己的几个dll文件了。这些都是内存开销需要考虑的。
 
 **优化时需要注意三个方面：**
-（1）CPU方面
-（2）GPU方面
-（3）内存方面
+（1）CPU方面.
+（2）GPU方面.
+（3）内存方面.
 
 
 ### CPU方面的优化
