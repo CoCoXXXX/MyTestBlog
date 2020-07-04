@@ -446,7 +446,7 @@ code {
   overflow: auto;
   position: fixed;
   top: 0;
-  width: 180px;
+  width: 30%;
 }
 
 #sidebar h1 {
@@ -512,8 +512,8 @@ code {
 /* References */
 #content {
   padding: 20px;
-  padding-left: 200px;
-  max-width: 700px;
+  padding-left: 30%;
+  max-width: 1700px;
 }
 
 #content .control {
